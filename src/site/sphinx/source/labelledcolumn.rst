@@ -199,7 +199,7 @@ Beanの定義
     
     public class Sample {
         
-        // 全レコードを一度に書き込む場合
+        // 全レコードを一度に書き出す場合
         public void sampleWriteAll() {
             
             LazyCsvAnnotationBeanWriter<UserCsv> csvWriter = new LazyCsvAnnotationBeanWriter<>(
@@ -285,7 +285,7 @@ Beanの定義
     
     public class Sample {
         
-        // 全レコードを一度に書き込む場合
+        // 全レコードを一度に書き出す場合
         public void sampleWriteAll() {
             
             LazyCsvAnnotationBeanWriter<UserCsv> csvWriter = new LazyCsvAnnotationBeanWriter<>(
